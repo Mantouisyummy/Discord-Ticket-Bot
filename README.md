@@ -12,7 +12,7 @@ pip install -r requirements.txt
 * `TOKEN` - 你的Discord機器人Token
 
 3.接著運行機器人  
-```
+```shell
 python3 bot.py
 ```
 > 現在，你可以開始使用這個機器人了!
