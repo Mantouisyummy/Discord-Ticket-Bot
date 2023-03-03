@@ -4,7 +4,6 @@ import logging
 from os import getenv
 import os
 
-from dotenv import load_dotenv
 from disnake import Intents
 from disnake.ext.commands import CommandSyncFlags
 
@@ -26,7 +25,6 @@ async def on_ready():
     print("###此開源由Man頭(´・ω・)#8870製作,使用請註明來源###")
     print(f"-----------------{bot.user.name} 啟動成功!----------------")
     load_extensions(bot)
-    load_dotenv()
     
 def load_extensions(bot: Bot) -> Bot:
     """
